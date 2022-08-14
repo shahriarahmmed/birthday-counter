@@ -3,11 +3,11 @@
 }
 
 #name {
-    color: #ffe66b;
+    color: #ba4fda;
 }
 
 #name:hover {
-    color: #eed65d;
+    color: #b547d0; /*#eed65d; */
     cursor: pointer;
 }
 
@@ -17,7 +17,8 @@ body {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    /* font-family: 'Poppins', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,11 +47,13 @@ h1 {
 /* responsiveness */
 @media only screen and (max-width: 768px) {
     body {
+        margin: 0;
         align-items: center;
         /* background-size: cover; */
         background-repeat: no-repeat;
     }
     h1 {
+        margin-top: 0;
         font-size: 3rem;
         text-align: center;
         align-items: center;
@@ -61,7 +64,7 @@ h1 {
         margin: 0 1rem;
     }
     .countdown-container{
-        margin-top: 30px;
+        margin-top: 0px;
         display: flex;
     }
 }
