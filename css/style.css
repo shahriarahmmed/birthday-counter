@@ -17,7 +17,7 @@ body {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    font-family: 'DynaPuff', cursive;
+    font-family: 'DynaPuff', cursive; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +41,11 @@ h1 {
 
 .countdown-box {
     text-align: center;
+}
+
+.credit {
+    margin-top: 200px;
+    color: rgba(49, 48, 48, 0.3);
 }
 
 /* responsiveness */
