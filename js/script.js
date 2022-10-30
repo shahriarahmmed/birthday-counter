@@ -1,4 +1,4 @@
-const birthday = "2 Sep 2022";
+const birthday = "6 Nov 2022";
 
 function countdown() {
     const birthdayDate = new Date(birthday);
